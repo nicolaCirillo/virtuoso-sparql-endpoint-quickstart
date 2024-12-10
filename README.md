@@ -7,7 +7,7 @@ Creates and runs a Virtuoso Open Source instance including a SPARQL endpoint pre
 Running the Virtuoso SPARQL Endpoint Quickstart requires Docker and Docker Compose installed on your system. If you do not have those installed, please follow the install instructions for [here](https://docs.docker.com/engine/install/) and [here](https://docs.docker.com/compose/install/). Once you have both Docker and Docker Compose installed, run
 
 ``` bash
-git clone https://github.com/dbpedia/virtuoso-sparql-endpoint-quickstart.git
+git clone https://github.com/nicolaCirillo/virtuoso-sparql-endpoint-quickstart.git
 cd virtuoso-sparql-endpoint-quickstart
 COLLECTION_URI=https://databus.dbpedia.org/dbpedia/collections/dbpedia-snapshot-2022-03 VIRTUOSO_ADMIN_PASSWD=YourSecretPassword docker-compose up
 ```
